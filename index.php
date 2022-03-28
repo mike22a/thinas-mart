@@ -1,9 +1,3 @@
-<?php
-include "config/config.php";
-// include "config/getData.php";
-
-// include "test.php";
-?>
 <!doctype html>
 <html lang="en">
 
@@ -32,11 +26,6 @@ include "config/config.php";
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" id="listCategory">
                     <a class="nav-item nav-link" href="#">All Item</a>
-
-                    <!-- <a class="nav-item nav-link" href="#">Pizza</a>
-                    <a class="nav-item nav-link" href="#">Pasta</a>
-                    <a class="nav-item nav-link" href="#">Nasi</a>
-                    <a class="nav-item nav-link" href="#">Minuman</a> -->
                 </div>
             </div>
         </div>
