@@ -36,7 +36,7 @@
 
 $(document).ready(function(){
     function allCategory () {
-        $.getJSON('data/getData.php?case=category', function (data) {
+        $.getJSON('https://mike22a.000webhostapp.com/data/getData.php?case=category', function (data) {
             let category = data;
             let content = '';
             $.each(category, function (i, data) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
     };
     
     function allItem () {
-        $.getJSON('data/getData.php?case=item', function (data) {        
+        $.getJSON('https://mike22a.000webhostapp.com/data/getData.php?case=item', function (data) {        
             let item = data;
             let content = '';
             $.each(item, function (i, data) {
@@ -78,7 +78,7 @@ $(document).ready(function(){
             return;
         }
 
-        $.getJSON('data/getData.php?case=item', function (data) {
+        $.getJSON('https://mike22a.000webhostapp.com/data/getData.php?case=item', function (data) {
             console.log(data);
             let content = '';
             let item = data;
